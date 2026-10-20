@@ -1,0 +1,16 @@
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# Large local datasets are not suitable for a standard GitHub repository.
+bdd100k/
+bdd100k_labels_release/
+bdd100k_seg/
+
+# Ultralytics downloads pretrained weights when needed.
+*.pt
+
+# Keep Streamlit credentials local.
+.streamlit/secrets.toml
+.streamlit/credentials.toml
